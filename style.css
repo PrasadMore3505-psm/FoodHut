@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header{
+    background-color: gray;
+    color:red;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("/imgs/main.jpg");
+}
+
+nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50;
+    float: left;
+}
+
+#snav{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+nav a:hover{
+    color: #ff2150;
+}
+
+header h1{
+    font-size: 50;
+    position: relative;
+    top: 20;
+    color: #ff2150;
+    text-align: center;
+    right: 20;
+}
+
+#snav button{
+    padding: 10px;
+    background-color: #ff2150;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: relative;
+    top: -8;
+}
+
+header .maintext{
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.maintext h1{
+    font-size: 80px;
+    color: white;
+    position: relative;
+    margin-top: 200;
+    margin-left: 20;
+
+}
+
+.maintext h3{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20;
+}
+
+.maintext button{
+    padding: 20px;
+    background-color: #ff2150;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 370px;
+    font-weight: 400;
+}
+
+/* BANNER ENDS HERE */
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+
+}
+main .left img{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: #353a40;
+}
+
+.right h2{
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.right p{
+    padding: 50px;
+    color: white;
+    position: relative;
+    bottom: 80;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+/* MENU STARTS HERE */
+
+.menu{
+    width: 100%;
+    height: 30%;
+    background-color:#353a40;
+}
+
+.menu h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50;
+}
+
+.menu-item{
+    width: 100%;
+    height: 100vh;
+    background-color: #353a40;
+}
+
+.menu-item img{
+    width: 24%;
+    height: 48%;
+    margin:0 0 0 0;
+    position: relative;
+    left:20;
+}
+
+/* BOOK A TABLE STARTS HERE */
+
+.book-a-table{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./imgs/book-table-img.jpg");
+    background-size: 100% 100%;
+    opacity: 1.0;
+}
+
+.book-a-table h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80;
+}
+
+.book-a-table input{
+    width: 20%;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid white;
+    margin-right: 20px;
+    margin-top: 130px;
+    position: relative;
+    left: 80;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input:hover{
+    border: 2px solid #ff2150;
+}
+
+.book-a-table button{
+    padding: 20px;
+    background-color: #ff2150;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 600px;
+    font-weight: 400;
+}
+
+
+/* EVENTS STARTS HERE */
+
+.events{
+    width: 100%;
+    height: 40%;
+    background-color:#353a40;
+}
+
+.events h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50;
+}
+
+.events button{
+    width: 15%;
+    padding: 20px;
+    background-color: #ff2150;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    left: 490;
+    top:70;
+    margin-right: 10px;
+}
+
+/* Event boxes Starts Here */
+
+.event-boxes{
+    width: 100%;
+    height: 80vh;
+    background-color:#353a40;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.event-boxes .event-box{
+    width: 30%;
+    height: 90%;
+    background-color: #353a40;
+    border: 1px solid gray;
+}
+
+
+.event-box img{
+    width: 100%;
+    height: 40%;
+}
+
+.event-box button{
+    background-color: #ff2150;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-size: 20px;
+    
+}
+
+.event-box h3{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.event-box p{
+    color: white;
+    padding: 20px;
+    margin-top: -30px;
+    text-align: justify;
+    text-align: center;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+/* REVIEWS STARTS HERE */
+
+.reviews{
+    width: 100%;
+    height: 30%;
+    background-color: #353a40;
+}
+
+.reviews h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50;
+}
+
+/* Review boxes starts here */
+
+.review-boxes{
+    width: 100%;
+    height: 60vh;
+    background-color: #353a40;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review-boxes .review-box{
+    width: 30%;
+    height: 80%;
+    background-color: #353a40;
+}
+
+
+.review-box h2{
+    color: white;
+    font-size: 40px;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.review-box h5{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10;
+}
+
+.review-box p{
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border: 3px solid gray;
+    border-top:3px solid #ff2150;
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+/* FOOTER STARTS HERE */
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #353a40;
+    border-top: 1px solid white;
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:40;
+    text-align: center;
+}
+
